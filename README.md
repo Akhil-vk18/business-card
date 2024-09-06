@@ -1,16 +1,14 @@
-# business_card
+Code Overview
 
-A new Flutter project.
+This Flutter app creates a simple profile card interface. It displays a profile picture, name, occupation, phone number, and email address, all styled with Material Design components.
 
-## Getting Started
+MaterialApp: The root widget that applies Material Design styles.
 
-This project is a starting point for a Flutter application.
+Scaffold: Provides the structure, including background color and layout.
 
-A few resources to get you started if this is your first Flutter project:
+CircleAvatar: Displays a circular profile picture.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Text Widgets: Show the name and occupation with custom fonts and colors.
+Card and ListTile Widgets: Display contact details like phone number and email with icons.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app uses the Column widget to align all components in the center, and the SafeArea ensures the layout is responsive and avoids screen notches.
